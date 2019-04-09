@@ -22,7 +22,7 @@ class componentName extends Component {
                             <Row>
                                 <Col xs={12} lg={4}>
                                     <hr className="horizontal"></hr>
-                                    <Card.Img className="FooterLogo" src="assets/texture_hair_logo.PNG"/>
+                                    <Card.Img className="FooterLogo" src="assets/texture_hair_logo1.PNG"/>
                                     <hr className="horizontal"></hr>
                                     <Card.Text>
                                         <p>Texture Hair Studio is a real salon for real people. We offer a wide range of hair 

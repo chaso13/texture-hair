@@ -7,7 +7,7 @@ class CustomNavbar extends Component {
         return (
         
                 <Navbar collapseOnSelect expand="lg" className="customNavBar"  variant="dark" fixed="top">
-                    <Navbar.Brand><Link to="/"><img className="Logo" src="assets/texture_hair_logo.PNG"/></Link></Navbar.Brand>
+                    <Navbar.Brand><Link to="/"><img className="Logo" src="assets/texture_hair_logo1.PNG"/></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav >
