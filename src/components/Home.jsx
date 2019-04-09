@@ -5,7 +5,7 @@ class Home extends Component {
     render () {
         return (
             <Container fluid>
-                <Carousel>
+                <Carousel fade>
                     <Carousel.Item>
                         <img
                         className="carouselItem"
