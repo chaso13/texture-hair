@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Carousel, Card, Jumbotron, Button, Container, Row, Col} from 'react-bootstrap'
 import './Home.css';
-class componentName extends Component {
+class Home extends Component {
     render () {
         return (
             <div>
@@ -70,4 +70,4 @@ class componentName extends Component {
     }
 }
 
-export default componentName
+export default Home
