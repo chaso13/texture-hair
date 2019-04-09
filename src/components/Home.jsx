@@ -4,8 +4,8 @@ import './Home.css';
 class Home extends Component {
     render () {
         return (
-            <div>
-                <Carousel>
+            <Container fluid>
+                <Carousel fade>
                     <Carousel.Item>
                         <img
                         className="carouselItem"
@@ -65,7 +65,8 @@ class Home extends Component {
                     <Button variant="primary">Learn more</Button>
                   </p>
                 </Jumbotron>
-            </div>
+            </Container>
+            
         )
     }
 }
