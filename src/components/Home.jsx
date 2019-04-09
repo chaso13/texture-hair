@@ -4,7 +4,7 @@ import './Home.css';
 class Home extends Component {
     render () {
         return (
-            <div>
+            <Container fluid>
                 <Carousel>
                     <Carousel.Item>
                         <img
@@ -65,7 +65,8 @@ class Home extends Component {
                     <Button variant="primary">Learn more</Button>
                   </p>
                 </Jumbotron>
-            </div>
+            </Container>
+            
         )
     }
 }
