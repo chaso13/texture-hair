@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom';
 import Home from './components/Home';
 import Features from './components/Features';
 import Pricing from './components/Pricing';
@@ -14,9 +14,9 @@ class App extends Component {
 			<div>
 				<CustomNavbar/>
         <Switch>
-					<Route exact path="/"component={Home}/>
-					<Route exact path="/features"component={Features}/>
-					<Route exact path ="/pricing"component={Pricing}/>
+					<Route exact path="/home"component={Home}/>
+					<Route path="/features"component={Features}/>
+					<Route path ="/pricing"component={Pricing}/>
 				</Switch>
         <Footer/>
 			</div>

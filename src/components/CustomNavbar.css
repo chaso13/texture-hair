@@ -8,5 +8,14 @@
     background-color: #030305;
 }
 .customNavLink{
+    color:white;
+}
+.customNavLink:hover{
     color:#D9768C;
-};
+}
+.customNavLink:active{
+    color:white;
+}
+
+
+;
