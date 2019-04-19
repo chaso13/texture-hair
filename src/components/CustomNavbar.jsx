@@ -9,13 +9,13 @@ class CustomNavbar extends Component {
                 <Row>
                     <Col xs={12}>
                     <Navbar collapseOnSelect expand="lg" className="customNavBar"  variant="dark" fixed="top" fluid>
-                        <Navbar.Brand><Link to="/home"><img className="Logo" src="assets/texture_hair_logo1.PNG" alt=""/></Link></Navbar.Brand>
+                        <Navbar.Brand><Link to="/"><img className="Logo" src="assets/texture_hair_logo1.PNG" alt=""/></Link></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ml-auto">
-                                <Nav.Link ><NavLink to="/home" className="customNavLink"activeStyle={{ color: '#D9768C' }}>Home</NavLink></Nav.Link>
+                                <Nav.Link><NavLink to="/" className="customNavLink"activeStyle={{ color: '#D9768C' }}>Home</NavLink></Nav.Link>
                                 <Nav.Link><NavLink to="/features" className="customNavLink"activeStyle={{ color: '#D9768C' }}>Features</NavLink></Nav.Link>
-                                <Nav.Link ><NavLink to="/pricing" className="customNavLink"activeStyle={{ color: '#D9768C' }}>Pricing</NavLink></Nav.Link>
+                                <Nav.Link><NavLink to="/pricing" className="customNavLink"activeStyle={{ color: '#D9768C' }}>Pricing</NavLink></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
